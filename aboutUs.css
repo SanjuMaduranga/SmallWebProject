@@ -1,0 +1,198 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  
+  margin: 0;
+}
+
+
+.header {
+  text-align: center;
+  color: white;
+  font-family: rosmatika;
+}
+
+.coverPic{
+	width:100%;
+	background-size:cover;
+	background-position:relative;
+}
+
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.navbar a:hover {
+  background-color: #fcff00;
+  color: black;
+}
+
+.icons{
+  padding:15px;
+  
+}
+
+.icons a:hover{
+	background-color: black;
+	text-decoration: none;
+	
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.sub-title{
+  font-family:rosmatika;
+  text-align:center;
+  padding:10px;  
+}
+
+.sub-title2{
+	font-family:rosmatika;
+  color:white;
+  text-align:center;
+  padding:5px;  
+}
+
+
+.main {
+  background-image: url(images/cover/1.jpg);
+  width:100%;
+  height:100%;  
+  flex: 70%;
+  padding: 20px;
+}
+
+.container {
+  width:600px;
+  height:600px;
+  background-color: #d8eff0;
+  float:left;
+  margin-left:10px;
+  position: relative;
+  z-index: 2;
+}
+
+.container2 {
+  width:1600px;
+  height:300px;
+  background-color: #042961;
+  float:left;
+  position: relative;
+  margin:10px;
+}
+
+.combine{
+	
+	margin-left:0px;
+}
+
+.pic{
+  width:875px;
+  height:600px;
+  display:flex;
+  position: relative;
+  z-index: 1;
+}
+
+.gallery{
+	margin-top:15px;
+	margin-left:10px;
+}
+
+.gallery img:hover{
+    opacity: 0.5;
+	border: 1px solid #777;
+}
+
+.galleryTitle{
+	margin:35px;
+	text-align:center;
+	font-size:50px;
+	color:white;
+	font-family:arial;
+}
+
+.galleryDesc{
+	margin:5px;
+	text-align:center;
+	color:white;
+	font-family:arial;
+}
+
+.title{
+	background-color:gray;
+	height:150px;
+	margin-bottom:20px;
+	
+	opacity:0.8;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.desc{
+  font-size:20px;
+  text-align:center;
+  padding:80px;
+ 
+}
+
+.desc2{
+	color: white;
+  font-size:20px;
+  text-align:center;
+  padding:50px;
+ 
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  color:white;
+ 
+}
+
+a{
+	text-decoration:none;
+}
+
+@media screen and (max-width: 100px) {
+    .footer {
+       padding: 20px;
+       text-align: center;
+       background: #fcfaca;
+  }
+
+}

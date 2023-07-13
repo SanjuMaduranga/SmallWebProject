@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  
+  margin: 0;
+}
+
+
+.header {
+  text-align: center;
+  color: white;
+  font-family: rosmatika;
+}
+
+.coverPic{
+	width:100%;
+	background-size:cover;
+	background-position:relative;
+}
+
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.navbar a:hover {
+  background-color: #fcff00;
+  color: black;
+}
+
+.icons{
+  padding:15px;
+  
+}
+
+.icons a:hover{
+	background-color: black;
+	text-decoration: none;
+	
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.sub-title{
+  text-align:center;
+  padding:10px;  
+  font-family:rosmatika;
+  color:white;
+}
+
+
+.main {
+  background-image: url(images/cover/1.jpg);
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-family:arial;
+}
+
+input[type=submit] {
+  background-color: orange;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+ 
+}
+
+input[type=submit]:hover {
+  background-color: blue;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#submit{
+  float:right;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.details{
+  margin-left:;
+  padding:20px;
+  background:#07053d;
+  color:white;
+  font-size:20px;
+  
+}
+
+
+.pic{
+  float:right;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  color:white;
+}
+
+a{
+	text-decoration:none;
+}
+
+@media screen and (max-width: 100px) {
+  .footer {
+       padding: 20px;
+       text-align: center;
+       background: #fcfaca;
+  }
+}
